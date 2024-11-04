@@ -13,7 +13,7 @@ function App() {
       id: 1,
       title: 'Nike Air Max - Grails',
       image: 'https://i.pinimg.com/originals/de/84/78/de847819dc8c0dcfea42e1f14faa5775.gif',
-      description: "In 1987, the Air Max 1 was born, igniting a love for Nike's iconic cushioning system.",
+      description: "In 1987, the Air Max 1 was born, igniting a love for Nike's iconic cushioning.",
       price: '$29.99',
     },
     {
@@ -27,7 +27,7 @@ function App() {
       id: 3,
       title: 'One Piece - Anime',
       image: 'https://i.pinimg.com/736x/4e/67/4d/4e674d8daeb50f147d5234227d4c9054.jpg',
-      description: 'One Piece has received praise for its storytelling, world-building, art, characterization, and humour.',
+      description: 'One Piece has received praise for its storytelling, world-building, art.',
       price: '$109.99',
     },
   ];
