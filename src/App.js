@@ -11,21 +11,21 @@ function App() {
   const sampleProducts = [
     {
       id: 1,
-      title: 'Nike Air Max - Grails',
+      title: 'Nike Air Max',
       image: 'https://i.pinimg.com/originals/de/84/78/de847819dc8c0dcfea42e1f14faa5775.gif',
       description: "In 1987, the Air Max 1 was born, igniting a love for Nike's iconic cushioning.",
       price: '$29.99',
     },
     {
       id: 2,
-      title: 'Nike — Lincoln Design Co.',
+      title: 'Nike — Lincoln',
       image: 'https://i.pinimg.com/564x/8f/73/78/8f73780edb4779dd02b553d9abc19277.jpg',
       description: 'In reality, the Nike Swoosh was designed by graphic designer Carolyn.',
       price: '$59.99',
     },
     {
       id: 3,
-      title: 'One Piece - Anime',
+      title: 'One Piece',
       image: 'https://i.pinimg.com/736x/4e/67/4d/4e674d8daeb50f147d5234227d4c9054.jpg',
       description: 'One Piece has received praise for its storytelling, world-building, art.',
       price: '$109.99',
@@ -100,8 +100,9 @@ function App() {
   return (
     <>
       <div className="m-3">
-        <h1 className="mt-2 ms-2 mb-5 text-start">Product Showcase</h1>
-
+        <div className="mt-2 pb-5 ms-2  text-start">
+          <h1 className="d-none d-sm-flex text-start">Product Showcase</h1>
+        </div>
 
         {/* Product Grid */}
         <div className="row">
@@ -122,10 +123,10 @@ function App() {
 
         {/* Icons for Cart and Add Product */}
         <div className="position-fixed top-0 end-0 p-3">
-          <button className="btn btn-outline-primary me-2" onClick={handleProductModalToggle}>
+          <button className="btn btn-primary me-2" onClick={handleProductModalToggle}>
             Add Product
           </button>
-          <button className="btn btn-outline-primary" onClick={handleCartModalToggle}>
+          <button className="btn btn-primary" onClick={handleCartModalToggle}>
             Cart <span className="badge bg-danger">{cart.length}</span>
           </button>
         </div>

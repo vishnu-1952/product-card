@@ -33,6 +33,10 @@
 .product-description {
   font-size: 1rem;
   color: #555;
+  height: 80px;
+  overflow-y: auto;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .product-price {
